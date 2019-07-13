@@ -13,6 +13,9 @@ ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
    * [ManuTus](#manutus)
    * [Table of Contents](#table-of-contents)
    * [Progressing](#rocket-Progressing)
+   * [For Windows](#for-windows)
+      * [Step 1 Installation](#step-1-installation)
+      * [Step 2 Token](#step-2-token)
    * [For Linux](#for-linux)
       * [Step 1 Dependency](#step-1-Dependency)
       * [Step 2 Python 3.7](#step-2-python-37)
@@ -21,12 +24,22 @@ ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
       * [Q&A](#Q&A)
    * [Download](#building_construction-Download)
 
-
 ## :rocket: Progressing
 欢迎对本项目提交“Issues”帮助我完善脚本;
 
 目前支持**Elsevier**和**RSC**的投稿系统, 其它系统等有投稿再update哈...
 
+## :pencil: For Windows (Win 10)
+
+### Step 1 Installation
+% Python 3.5 以上
+% 安装必要库, 包括: pyppeteer, twilio, baidu-aip, *etc*.
+% 参照 "Download" 配置 Chromium
+
+### Step 2 Token
+% 使用前提: 你已知晓如何申请[百度AI识别](https://login.bce.baidu.com/)和[Twilio](https://www.twilio.com/), 相关配置请Google.
+
+% 调整程序中的网址和账号即可.
 
 ## :pushpin: For Linux (Centos 7)
 
