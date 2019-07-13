@@ -57,11 +57,6 @@ myNumber = '*****************'
 twilioNumber = '*****************'
 
 
-APP_ID = '*****************'
-API_KEY = '*****************'
-SECRET_KEY = '*****************'
-
-
 async def textmyself(message):
     client = Client(account_sid, auth_token)
     message = client.messages.create(to=myNumber, from_=twilioNumber, body=message)
