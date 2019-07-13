@@ -73,9 +73,24 @@ pip3 install baidu-aip
 	原: self._url, max_size=None, loop=self._loop)
 	后: self._url, max_size=None, loop=self._loop, ping_interval=None, ping_timeout=None)
 ```
-##### Step 4 上传Chromium 及 ManuTus (类型: .py) 文件
+##### Step 4 上传Chromium 及 配置ManuTus (类型: .py) 文件
 % 按照 **“附件下载”** 部分执行 (GFW的Linux可忽略)
 % 使用 SFTP 软件挂载上传至 /home/
+% 建立screen 多窗口控制, 以防退出SSH时, 任务中止.
+
+```
+screen -S name 建立name任务
+screen -x name 进入name任务
+screen -ls     浏览当前所有任务
+crtl + A + D   返回主窗口
+
+crontab -l     浏览当前所有定时任务
+crontab -e     建立定时任务
+
+*/15 * * * * python /home/manuOCR.py
+*/17 * * * * python /home/RSC_VPS.py
+```
+
 
 **Note:** 
 
@@ -121,9 +136,7 @@ https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/575458/chrome-
 
 
 
-**Note:** 如果不存放在指定文件夹内, 只要在launch里配置一下Chromium的路径即可 (注意Linux和Windows路径斜线不同). 
-
-示例: 
+**Note:** 如果不存放在指定文件夹内, 只要在launch里配置一下Chromium的路径即可 (注意Linux和Windows路径斜线不同). 示例: 
 
 *<u>Win</u>*
 
