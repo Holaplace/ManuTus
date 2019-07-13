@@ -30,7 +30,7 @@ ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
 
 ## :pushpin: For Linux (Centos 7)
 
-##### Step 1 Dependency
+### Step 1 Dependency
 
 % 依赖库:
 ```
@@ -45,7 +45,7 @@ sudo yum install ipa-gothic-fonts xorg-x11-fonts-100dpi xorg-x11-fonts-75dpi xor
 await launch ("--no-sandbox")
 ```
 
-##### Step 2 安装配置 Python 3.5 以上
+### Step 2 安装配置 Python 3.5 以上
 
 % 安装必要工具 yum-utils
 ```
@@ -71,7 +71,7 @@ make && make install
 ```
 pip3 install --upgrade pip
 ```
-##### Step 3 安装第三方库
+### Step 3 安装第三方库
 % 安装库文件
 ```
 pip3 install pyppeteer
@@ -87,7 +87,7 @@ pip3 install baidu-aip
 	原: self._url, max_size=None, loop=self._loop)
 	后: self._url, max_size=None, loop=self._loop, ping_interval=None, ping_timeout=None)
 ```
-##### Step 4 上传Chromium 及 配置ManuTus (类型: .py) 文件
+### Step 4 上传Chromium 及 配置ManuTus (类型: .py) 文件
 % 按照 **“附件下载”** 部分执行 (GFW的Linux可忽略)
 % 使用 SFTP 软件挂载上传至 /home/
 % 建立screen 多窗口控制, 以防退出SSH时, 任务中止.
@@ -116,7 +116,7 @@ RSC --> RSC_VPS.py
 
 
 
-##### 常见问题
+### 常见问题
 1. Python环境设置, 出现在./configure末. 提示代码: -zlib not available (zipimport.ZipImportError: can‘t decompress data; zlib not available)
 
 解决办法: 安装依赖后, 重新 make && make install
@@ -131,7 +131,7 @@ vi /usr/libexec/urlgrabber-ext-down
 ```
 
 
-### :building_construction: 附件下载
+## :building_construction: 附件下载
 如果在GFW内，首次执行pyppeteer时，无法完成下载Chromium. 故提供下载所需Chromium文件, 并将其移动到下解压 (之后可删除压缩包).
 
 **LInux (CentOS 7) 文件, /root/.local/share/...**
