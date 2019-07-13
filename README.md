@@ -122,6 +122,7 @@ https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/575458/chrome-
 
 
 **Note:** 如果不存放在指定文件夹内, 只要在launch里配置一下Chromium的路径即可 (注意Linux和Windows路径斜线不同). 
+
 示例: 
 
 *<u>Win</u>*
