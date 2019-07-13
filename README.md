@@ -9,11 +9,11 @@ Table of Contents
 <!--ts-->
    * [ManuTus](#manutus)
    * [Table of Contents](#table-of-contents)
-   * [关于](#pencil-关于)
-   * [进展](#rocket-进展)
-   * [操作指南](#pushpin-操作指南)
+   * [AboutManuTus](#pencil-AboutManuTus)
+   * [Progressing](#rocket-Progressing)
+   * [Installation](#pushpin-Installation)
    * [Linux (Centos 7)](#linux-centos-7)
-      * [Step 1 依赖安装](#step-1-依赖安装)
+      * [Step 1 Dependency](#step-1-Dependency)
       * [Step 2 安装配置 Python 3.5 以上](#step-2-安装配置-python-35-以上)
       * [Step 3 安装第三方库](#step-3-安装第三方库)
       * [Step 4 上传Chromium 及 配置ManuTus (类型: .py) 文件](#step-4-上传chromium-及-配置manutus-类型-py-文件)
@@ -34,13 +34,13 @@ ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
 
 
 
-:pushpin: 操作指南
+:pushpin: Installation
 ======================
 
 Linux (Centos 7)
 --------------------
 
-##### Step 1 依赖安装
+##### Step 1 Dependency
 
 % 依赖库:
 ```
