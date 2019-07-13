@@ -1,9 +1,8 @@
 ![https://github.com/Holaplace/ManuTus/blob/master/ManuTus.jpg?raw=true](https://github.com/Holaplace/ManuTus/blob/master/ManuTus.jpg?raw=true)
 
 
-# ManuTus
-
-
+ManuTus
+=======
 
 Table of Contents
 =================
@@ -23,7 +22,8 @@ Table of Contents
                * [附件下载](#building_construction-附件下载)
 <!--te-->
 
-### :pencil: 关于
+:pencil: 关于
+============
 ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
 
 实现论文状态改变时，及时通过短信或电话通知作者.
