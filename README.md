@@ -1,13 +1,14 @@
 ![https://github.com/Holaplace/ManuTus/blob/master/ManuTus.jpg?raw=true](https://github.com/Holaplace/ManuTus/blob/master/ManuTus.jpg?raw=true)
 
 
-ManuTus
-=======
+## ManuTus
+
 ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
+
 实现论文状态改变时，及时通过短信或电话通知作者.
 
-Table of Contents
-=================
+## Table of Contents
+
 <!--ts-->
    * [ManuTus](#manutus)
    * [Table of Contents](#table-of-contents)
@@ -27,8 +28,7 @@ Table of Contents
 目前支持**Elsevier**和**RSC**的投稿系统, 其它系统等有投稿再update哈...
 
 
-:pushpin: For Linux (Centos 7)
-======================
+## :pushpin: For Linux (Centos 7)
 
 ##### Step 1 Dependency
 
