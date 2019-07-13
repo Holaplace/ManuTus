@@ -1,13 +1,13 @@
 ![https://github.com/Holaplace/ManuTus/blob/master/ManuTus.jpg?raw=true](https://github.com/Holaplace/ManuTus/blob/master/ManuTus.jpg?raw=true)
 
 
-## ManuTus
+# ManuTus
 
 
 Table of Contents
 =================
 
-      * [ManuTus](#manutus)
+* [ManuTus](#manutus)
    * [Table of Contents](#table-of-contents)
          * [<g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji> 关于](#pencil-关于)
          * [<g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> 进展](#rocket-进展)
