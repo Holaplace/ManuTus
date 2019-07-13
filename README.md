@@ -7,8 +7,6 @@ ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
 
 实现论文状态改变时，及时通过短信或电话通知作者.
 
-[![PyPI](https://img.shields.io/pypi/v/pyppeteer.svg)](https://pypi.python.org/pypi/pyppeteer)
-
 
 ## Table of Contents
 
