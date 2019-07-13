@@ -7,6 +7,8 @@
 
 Table of Contents
 =================
+<!--ts-->
+
 * [ManuTus](#manutus)
    * [Table of Contents](#table-of-contents)
          * [关于](#pencil-关于)
@@ -19,8 +21,7 @@ Table of Contents
                * [Step 4 上传Chromium 及 配置ManuTus (类型: .py) 文件](#step-4-上传chromium-及-配置manutus-类型-py-文件)
                * [常见问题](#常见问题)
                * [附件下载](#building_construction-附件下载)
-
-
+<!--te-->
 
 ### :pencil: 关于
 ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
