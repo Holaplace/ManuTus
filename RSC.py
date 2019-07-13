@@ -10,7 +10,7 @@ def input_time_random():
 
 
 def saveFile(content):
-    with open(r"C:\Users\Eliot Xu\Desktop\RSC.txt", 'a') as f:
+    with open(r"C:\Users\*****\Desktop\RSC.txt", 'a') as f:
         f.write(content)
 
 
@@ -51,15 +51,15 @@ async def stimulateClick(page, selector):
     time.sleep(2)
 
 
-account_sid = 'AC42a0cd6e0266090f4d58340d9ebf6932'
-auth_token = '2be41969718c99732244ed18f9c7aa0b'
-myNumber = '+8618019156817'
-twilioNumber = '+12055263797'
+account_sid = '*****************'
+auth_token = '*****************'
+myNumber = '*****************'
+twilioNumber = '*****************'
 
 
-APP_ID = '16786457'
-API_KEY = 'zQemGkiK2fRX0R7My4Nebqdu'
-SECRET_KEY = 'XPNlEM20YNr3BmXt2yEFgLbhc7zSFing'
+APP_ID = '*****************'
+API_KEY = '*****************'
+SECRET_KEY = '*****************'
 
 
 async def textmyself(message):
@@ -86,11 +86,11 @@ async def main():
     width, height = screen_size()
     await page.setViewport({"width": width, "height": height})
 
-    await page.goto('https://mc.manuscriptcentral.com/gc')
+    await page.goto('************************')
     await page.waitFor('#logInButton')
 
-    await page.type('#USERID', 'xuzhencang@163.com', {'delay': input_time_random() - 50})
-    await page.type('#PASSWORD', '210071Xzc12145', {'delay': input_time_random()})
+    await page.type('#USERID', '*************', {'delay': input_time_random() - 50})
+    await page.type('#PASSWORD', '***************', {'delay': input_time_random()})
 
     clickButton = await page.querySelector("#logInButton")
     await stimulateClick(page, clickButton)
