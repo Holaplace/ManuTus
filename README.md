@@ -9,8 +9,8 @@ Table of Contents
 
 * [ManuTus](#manutus)
    * [Table of Contents](#table-of-contents)
-         * [<g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji> 关于](#pencil-关于)
-         * [<g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> 进展](#rocket-进展)
+         * [关于](#pencil-关于)
+         * [进展](#rocket-进展)
          * [<g-emoji class="g-emoji" alias="pushpin" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png">📌</g-emoji> 操作指南](#pushpin-操作指南)
             * [Linux (Centos 7)](#linux-centos-7)
                * [Step 1 依赖安装](#step-1-依赖安装)
