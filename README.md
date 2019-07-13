@@ -3,16 +3,16 @@
 
 ManuTus
 =======
+ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
+实现论文状态改变时，及时通过短信或电话通知作者.
 
 Table of Contents
 =================
 <!--ts-->
    * [ManuTus](#manutus)
    * [Table of Contents](#table-of-contents)
-   * [AboutManuTus](#pencil-AboutManuTus)
    * [Progressing](#rocket-Progressing)
-   * [Installation](#pushpin-Installation)
-   * [Linux (Centos 7)](#linux-centos-7)
+   * [For Linux](#for-linux)
       * [Step 1 Dependency](#step-1-Dependency)
       * [Step 2 安装配置 Python 3.5 以上](#step-2-安装配置-python-35-以上)
       * [Step 3 安装第三方库](#step-3-安装第三方库)
@@ -21,24 +21,14 @@ Table of Contents
    * [附件下载](#building_construction-附件下载)
 <!--te-->
 
-:pencil: About ManuTus
-============
-ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
-
-实现论文状态改变时，及时通过短信或电话通知作者.
-
 ## :rocket: Progressing
 欢迎对本项目提交“Issues”帮助我完善脚本;
 
 目前支持**Elsevier**和**RSC**的投稿系统, 其它系统等有投稿再update哈...
 
 
-
-:pushpin: Installation
+:pushpin: For Linux (Centos 7)
 ======================
-
-Linux (Centos 7)
---------------------
 
 ##### Step 1 Dependency
 
