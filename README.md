@@ -36,7 +36,9 @@ ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
 
 
 ### :pushpin: 操作指南
-#### Linux (Centos 7)
+======================
+Linux (Centos 7)
+--------------------
 
 ##### Step 1 依赖安装
 
