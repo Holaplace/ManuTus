@@ -85,7 +85,7 @@ async def main():
     await page.waitFor('#logInButton')
 
     await page.type('#USERID', '*************', {'delay': input_time_random() - 50})
-    await page.type('#PASSWORD', '***************', {'delay': input_time_random()})
+    await page.type('#PASSWORD', '**************', {'delay': input_time_random()})
 
     clickButton = await page.querySelector("#logInButton")
     await stimulateClick(page, clickButton)
