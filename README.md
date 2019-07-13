@@ -1,5 +1,7 @@
 ![https://github.com/Holaplace/ManuTus/blob/master/ManuTus.jpg?raw=true](https://github.com/Holaplace/ManuTus/blob/master/ManuTus.jpg?raw=true)
 
+## ManuTus
+
 ### :pencil: 关于
 ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
 
