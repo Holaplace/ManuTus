@@ -27,15 +27,15 @@ launch_kwargs = {
     }
 
 
-account_sid = 'AC42a0cd6e0266090f4d58340d9ebf6932'
-auth_token = '2be41969718c99732244ed18f9c7aa0b'
-myNumber = '+8618019156817'
-twilioNumber = '+12055263797'
+account_sid = '**************'
+auth_token = '**************'
+myNumber = '**************'
+twilioNumber = '**************'
 
 
-APP_ID = '16786457'
-API_KEY = 'zQemGkiK2fRX0R7My4Nebqdu'
-SECRET_KEY = 'XPNlEM20YNr3BmXt2yEFgLbhc7zSFing'
+APP_ID = '**************'
+API_KEY = '**************'
+SECRET_KEY = '**************'
 
 
 async def textmyself(message):
@@ -68,31 +68,13 @@ async def main():
         await page.goto('https://ees.elsevier.com/neucom/default.asp?pg=login.asp')
         await page.waitFor('#mainFrameset > frameset:nth-child(1) > frame')
 
-
-        # webStatus = await page.title()
-        # if webStatus == 'IIS 8.5 Detailed Error - 404.0 - Not Found':
-        #     await page.reload()
-        # else:
-        #
-
-        # a = 0
-        # b = 0
-        # while True:
-        #     frame1 = page.frames
-        #     a += 1
-        #     if a <= b:
-        #         pass
-        #     title = await frame1[a].title()
-        #     if title == 'Login':
-        #         b = a
-
         frame1 = page.frames
         await asyncio.sleep(1)
         username = await frame1[5].querySelector('#rightCol > form > div > fieldset > input:nth-child(3)')
-        await username.type('xuzhencang@163.com')
+        await username.type('**************')
 
         password = await frame1[5].querySelector('#rightCol > form > div > fieldset > input:nth-child(6)')
-        await password.type('210071Xzc12145')
+        await password.type('**************')
 
         coauther_role = await frame1[5].querySelector(
             '#rightCol > form > div > fieldset > div.buttonAlign > input:nth-child(2)')
@@ -136,8 +118,5 @@ async def main():
                     os.remove(os.path.join(root, name))
                     print("Delete File: " + os.path.join(root, name))
             break
-            # break
-            # await page.goto('https://ees.elsevier.com/neucom/default.asp?pg=login.asp')
-
-
+            
 asyncio.get_event_loop().run_until_complete(main())
