@@ -15,11 +15,11 @@ ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
    * [Progressing](#rocket-Progressing)
    * [For Linux](#for-linux)
       * [Step 1 Dependency](#step-1-Dependency)
-      * [Step 2 安装配置 Python 3.5 以上](#step-2-安装配置-python-35-以上)
-      * [Step 3 安装第三方库](#step-3-安装第三方库)
-      * [Step 4 上传Chromium 及 配置ManuTus (类型: .py) 文件](#step-4-上传chromium-及-配置manutus-类型-py-文件)
-      * [常见问题](#常见问题)
-   * [附件下载](#building_construction-附件下载)
+      * [Step 2 Python 3.7](#step-2-python-37)
+      * [Step 3 Lib](#step-3-Lib)
+      * [Step 4 Configure](#step-4-Configure)
+      * [Q&A](#Q&A)
+   * [Download](#building_construction-Download)
 <!--te-->
 
 ## :rocket: Progressing
@@ -45,40 +45,40 @@ sudo yum install ipa-gothic-fonts xorg-x11-fonts-100dpi xorg-x11-fonts-75dpi xor
 await launch ("--no-sandbox")
 ```
 
-### Step 2 安装配置 Python 3.5 以上
+### Step 2 Python 3.7
 
-% 安装必要工具 yum-utils
+% Install yum-utils
 ```
 sudo yum install yum-utils
 ```
-% 使用yum-builddep为 Python3 构建环境
+% Install yum-builddep
 ```
 sudo yum-builddep python
 ```
-% 下载 Python 3.7 源码包
+% Download Python 3.7
 ```
 sudo yum install wget
 wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
 ```
-% 编译安装Python 3.7
+% Compile Python 3.7
 ```
 tar xf Python-3.7.0.tgz
 cd Python-3.7.0
 ./configure
 make && make install
 ```
-% 升级 pip3
+% Update pip3
 ```
 pip3 install --upgrade pip
 ```
-### Step 3 安装第三方库
-% 安装库文件
+### Step 3 Lib
+% Install Lib
 ```
 pip3 install pyppeteer
 pip3 install twilio
 pip3 install baidu-aip
 ```
-% 修改 pyppeteer 中的 connection.py 源码
+% Correct connection.py
 ```
 文件位置: /usr/local/lib/python3.7/site-packages/pyppeteer/connection.py
 修改参考: https://github.com/miyakogi/pyppeteer/pull/160/files
@@ -87,7 +87,7 @@ pip3 install baidu-aip
 	原: self._url, max_size=None, loop=self._loop)
 	后: self._url, max_size=None, loop=self._loop, ping_interval=None, ping_timeout=None)
 ```
-### Step 4 上传Chromium 及 配置ManuTus (类型: .py) 文件
+### Step 4 Configure
 % 按照 **“附件下载”** 部分执行 (GFW的Linux可忽略)
 % 使用 SFTP 软件挂载上传至 /home/
 % 建立screen 多窗口控制, 以防退出SSH时, 任务中止.
@@ -116,7 +116,7 @@ RSC --> RSC_VPS.py
 
 
 
-### 常见问题
+### Q&A
 1. Python环境设置, 出现在./configure末. 提示代码: -zlib not available (zipimport.ZipImportError: can‘t decompress data; zlib not available)
 
 解决办法: 安装依赖后, 重新 make && make install
@@ -131,7 +131,7 @@ vi /usr/libexec/urlgrabber-ext-down
 ```
 
 
-## :building_construction: 附件下载
+## :building_construction: Download
 如果在GFW内，首次执行pyppeteer时，无法完成下载Chromium. 故提供下载所需Chromium文件, 并将其移动到下解压 (之后可删除压缩包).
 
 **LInux (CentOS 7) 文件, /root/.local/share/...**
