@@ -7,7 +7,6 @@ ManuTus
 Table of Contents
 =================
 <!--ts-->
-
 * [ManuTus](#manutus)
    * [Table of Contents](#table-of-contents)
          * [关于](#pencil-关于)
@@ -37,6 +36,7 @@ ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
 
 ### :pushpin: 操作指南
 ======================
+
 Linux (Centos 7)
 --------------------
 
