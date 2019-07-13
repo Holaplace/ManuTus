@@ -18,15 +18,15 @@ launch_kwargs = {
     }
 
 
-account_sid = 'AC42a0cd6e0266090f4d58340d9ebf6932'
-auth_token = '2be41969718c99732244ed18f9c7aa0b'
-myNumber = '+8618019156817'
-twilioNumber = '+12055263797'
+account_sid = '*******************************'
+auth_token = '*******************************'
+myNumber = '+*************'
+twilioNumber = '+*********'
 
 
-APP_ID = '16786457'
-API_KEY = 'zQemGkiK2fRX0R7My4Nebqdu'
-SECRET_KEY = 'XPNlEM20YNr3BmXt2yEFgLbhc7zSFing'
+APP_ID = '***********'
+API_KEY = '*******************'
+SECRET_KEY = '********************'
 
 
 async def textmyself(message):
@@ -58,10 +58,10 @@ async def main():
     b = 5
     await asyncio.sleep(1)
     username = await frame1[b].querySelector('#rightCol > form > div > fieldset > input:nth-child(3)')
-    await username.type('xuzhencang@163.com')
+    await username.type('**************')
 
     password = await frame1[b].querySelector('#rightCol > form > div > fieldset > input:nth-child(6)')
-    await password.type('210071Xzc12145')
+    await password.type('***************')
 
     coauther_role = await frame1[b].querySelector(
         '#rightCol > form > div > fieldset > div.buttonAlign > input:nth-child(2)')
