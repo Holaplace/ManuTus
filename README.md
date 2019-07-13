@@ -1,5 +1,3 @@
-## ManuTus
-
 ![https://github.com/Holaplace/ManuTus/blob/master/ManuTus.jpg?raw=true](https://github.com/Holaplace/ManuTus/blob/master/ManuTus.jpg?raw=true)
 
 ### :pencil: 关于
