@@ -4,16 +4,16 @@ Table of Contents
 =================
 
       * [ManuTus]()
-         * [<g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji> 关于]()
-         * [<g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> 进展]()
+         * [<g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji> 关于](#关于)
+         * [<g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> 进展](#进展)
          * [<g-emoji class="g-emoji" alias="pushpin" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png">📌</g-emoji> 操作指南]()
-            * [Linux (Centos 7)]()
-               * [Step 1 依赖安装]()
-               * [Step 2 安装配置 Python 3.5 以上]()
-               * [Step 3 安装第三方库]()
-               * [Step 4 上传Chromium 及 配置ManuTus (类型: .py) 文件]()
-               * [常见问题]()
-         * [<g-emoji class="g-emoji" alias="building_construction" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3d7.png">🏗</g-emoji> 附件下载]()
+            * [Linux (Centos 7)](Linux (Centos 7))
+               * [Step 1 依赖安装](Step 1 依赖安装)
+               * [Step 2 安装配置 Python 3.5 以上](Step 2 安装配置 Python 3.5 以上)
+               * [Step 3 安装第三方库](Step 3 安装第三方库)
+               * [Step 4 上传Chromium 及 配置ManuTus (类型: .py) 文件](Step 4 上传Chromium 及 配置ManuTus (类型: .py) 文件)
+               * [常见问题](常见问题)
+         * [<g-emoji class="g-emoji" alias="building_construction" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3d7.png">🏗</g-emoji> 附件下载](附件下载)
 
 ## ManuTus
 
