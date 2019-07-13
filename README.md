@@ -10,7 +10,6 @@ ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
 
 ## Table of Contents
 
-<!--ts-->
    * [ManuTus](#manutus)
    * [Table of Contents](#table-of-contents)
    * [Progressing](#rocket-Progressing)
@@ -21,7 +20,7 @@ ManuTus (Manuscript Status) 时刻监视投稿期刊的状态.
       * [Step 4 Configure](#step-4-Configure)
       * [Q&A](#Q&A)
    * [Download](#building_construction-Download)
-<!--te-->
+
 
 ## :rocket: Progressing
 欢迎对本项目提交“Issues”帮助我完善脚本;
